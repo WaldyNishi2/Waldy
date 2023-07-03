@@ -1,4 +1,3 @@
-INFO.PY
 
 import re
 from os import environ
