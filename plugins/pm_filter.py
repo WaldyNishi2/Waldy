@@ -407,7 +407,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('➕ You can add out bot to your Group ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Channel', url='https://t.me/Waldy_Writingss'),
+            InlineKeyboardButton('🤖 Channel', url='https://t.me/Waldy_Writings'),
             InlineKeyboardButton('👥 Support Chat', url='https://t.me/WaldyWritings_bot')
             ], [
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
@@ -439,7 +439,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🤖 OUR CHANNEL', url='https://t.me/Waldy_Writingss')
+            InlineKeyboardButton('🤖 OUR CHANNEL', url='https://t.me/Waldy_Writings')
            
         ], [
             InlineKeyboardButton('🏠 Home', callback_data='start'),
